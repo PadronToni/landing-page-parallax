@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import Logo from './Logo.vue';
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { RouterLink } from 'vue-router'
 		aria-label="Primary Navigation">
 		<RouterLink to="/" aria-label="Go home">
 			<!-- qui va il logo -->
-			<img src="" alt="">
+			<Logo class="w-32 fill-white"></Logo>
 		</RouterLink>
 	</nav>
 </template>

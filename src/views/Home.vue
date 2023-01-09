@@ -3,10 +3,6 @@
 
 <template>
   <main>
-    <h1 class="text-6xl"> Sas a quello stronzo </h1>
-    <p class="text-base"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, optio
-      repudiandae necessitatibus quidem vitae quia non! Ducimus ipsa et tempora!
-    </p>
   </main>
 </template>
 
