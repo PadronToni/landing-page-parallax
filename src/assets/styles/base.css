@@ -50,9 +50,16 @@
   }
 }
 
+::selection {
+  @apply bg-primary-400 text-gray-900;
+}
+
 body {
+  overflow: hidden;
   min-height: 100vh;
   transition: color 0.5s, background-color 0.5s;
+
+  /* font */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
